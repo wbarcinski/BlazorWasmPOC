@@ -13,7 +13,7 @@ services:
       - VIRTUAL_HOST=api.yellowberries.com
       - VIRTUAL_PORT=80
       - LETSENCRYPT_HOST=api.yellowberries.com
-      - LETSENCRYPT_EMAIL=myemail@yellowberries.com
+      - LETSENCRYPT_EMAIL=wbarcinski@yellowberries.com
       
   admin:
     build:
